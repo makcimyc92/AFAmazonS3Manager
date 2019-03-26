@@ -60,6 +60,8 @@
  */
 @property (readonly, nonatomic, copy) NSURL *endpointURL;
 
+
+@property (nonatomic, readonly) NSDate *currentDate;
 /**
  Sets the access key ID and secret, used to generate authorization headers.
 
